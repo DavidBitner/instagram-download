@@ -15,7 +15,7 @@ while True:
         break
     dirname = f'--dirname-pattern={directory}/@{profile}'
     if option == 1:
-        os.system(f"instaloader {dirname} --no-videos --no-captions --no-metadata-json --no-compress-json {profile}")
+        os.system(f"instaloader {dirname} --login --no-videos --no-captions --no-metadata-json --no-compress-json {profile}")
     elif option == 2:
         os.system(f"instaloader {dirname} --igtv --no-posts --no-captions --no-metadata-json --no-compress-json {profile}")
     elif option == 3:
